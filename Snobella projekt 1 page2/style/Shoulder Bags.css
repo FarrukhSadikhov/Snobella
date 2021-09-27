@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
+
+#head {
+    width: 100%;
+    height: 48px;
+    background: #007878;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-header {
+    width: 50%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mini-header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+.mini-header ul li {
+    margin-right: 15px;
+}
+.number {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+.hed {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+.mini-header2 {
+    width: 50%;
+    height: 25px;
+    
+}
+.mini-header2 ul {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-right: 300px; */
+    margin-left: 280px;
+}
+.mini-header2 ul li{
+    margin-left: 15px;
+}
+#head1 {
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px solid #787878;
+    
+}
+#head1 a {
+    color: black;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+   
+}
+.search {
+    width: 450px;
+    height: 48px;
+    background: #F7F9FC;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.searcicon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+    border: 1px solid black;
+    background: #F7F9FC;
+    margin-right: 25px;
+    border-radius: 15px;
+
+}
+.icon {
+    text-decoration: none;
+    padding: 15px;
+}
+.menic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.menic li{
+    display: flex;
+    align-items: center;
+}
+
+.menic a{
+        padding:0 25px 0 5px;
+}
+.podmenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+    width: 70%;
+}
+
+
+
+
+
+.hov1 a{
+    display: flex;
+    position: relative;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: 0  10px;
+    
+}
+
+.hov1 a::after{
+    content: " ";
+    position: absolute;
+    background-color: #DF4244;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom:  0;
+    transition: 0.3s;
+}
+.hov1 a:hover:after{
+    width: 100%;
+}
+
+
+.hov2 a{
+    display: flex;
+    position: relative;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: 0  10px;
+    
+}
+
+.hov2 a::after{
+    content: " ";
+    position: absolute;
+    background-color: rgb(15, 153, 95);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom:  0;
+    transition: 0.3s;
+}
+.hov2 a:hover:after{
+    width: 100%;
+}
+
+
+
+
+#product2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+   
+}
+.kart2 {
+    background-color: #f5f5f5;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f5;
+}
+#addcart {
+    background: #f9f9f9 ;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid;
+    padding: 8px 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.test {
+    border-left: 1px solid gray;
+    height: 165px;
+    margin: 10px 0px;
+}
+
+
+footer li {
+    color: black;
+    margin-top: 8px;
+}
+.cantalar {
+    padding-left: 0;
+}
+.tekst {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 170%;
+
+
+
+color: rgba(33, 33, 33, 0.75);
+
+}
+#new {
+    background: #43D167;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 4px 12px;
+}
+.pCard {
+    width: 456px;
+    height: 400px;
+    background: #F9F9F9;
+    margin-left: 60px;
+}
+.sizes {
+    width: 224px;
+    height: 60px;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
