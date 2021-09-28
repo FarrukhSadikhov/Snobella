@@ -227,27 +227,34 @@ a {
     background: #206363;
     border-radius: 8px;
     border: none;
+  
     margin-top: 20px;
     animation-duration: 0.5s;
-   
+    transition: 0.5s;
 }
-.btn :hover {
+.btn:hover {
         color: #206363;
         background-color: white;
-        transition: 0.5s;
+       
 }
-
+.btn:hover a{
+    color:  #206363;
+}
+.btn a{
+    color: white;
+}
+/* 
 .abtn {
     padding: 16px 47px;
     color: #FFFFFF;
     text-decoration: none;
     animation-duration: 0.5s;
-}
-.abtn::after {
+} */
+/* .abtn::after {
     color: #206363;
     background-color:#FFFFFF;
     transition: 0.5s;
-}
+} */
 
 /* 
 .shop{
@@ -302,10 +309,10 @@ a {
 }
 @keyframes float{
     0%, 100%{
-        transform: translate(0rem);
+        transform: translateY(0rem);
     }
     50%{
-        transform: translateX(3rem);
+        transform: translateY(3rem);
     }  
 }
 
