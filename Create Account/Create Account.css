@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.loginPage {
+    padding-top: 60px;
+    width: 552px;
+    height: 604px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 12px;
+}
+.loginPage input {
+    width: 360px;
+    height: 48px;
+    border-color: rgba(44, 44, 44, 0.25);
+    border-radius: 8px;
+    margin-left: 80px;
+    color: black;
+}
+.gre {
+    color: gray;
+    text-decoration: none;
+}

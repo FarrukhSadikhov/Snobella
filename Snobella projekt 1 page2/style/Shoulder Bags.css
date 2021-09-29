@@ -254,3 +254,13 @@ color: rgba(33, 33, 33, 0.75);
     border: 1px solid #E4E4E4;
     border-radius: 8px;
 }
+.kuta {
+    display: flex;
+    flex-direction: column;
+}
+.nnm {
+    margin: 12px;
+}
+.nmm {
+    margin: 6px;
+}
